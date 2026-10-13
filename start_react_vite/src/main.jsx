@@ -13,11 +13,12 @@ import LandingPage from './chapter_09/LandingPage.jsx'
 import AttendanceBook from './chapter_10/AttendanceBook.jsx'
 import SignUp from './chapter_11/SignUp.jsx'
 import Calculator from './chapter_12/Calculator.jsx'
+import ProfileCard from './chapter_13/ProfileCard.jsx'
 
 const root = createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-    <Calculator />
+    <ProfileCard />
   </StrictMode>,
 );
 
