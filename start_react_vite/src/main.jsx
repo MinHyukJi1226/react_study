@@ -12,11 +12,12 @@ import ConfirmButton from './chapter_08/ConfirmButton.jsx'
 import LandingPage from './chapter_09/LandingPage.jsx'
 import AttendanceBook from './chapter_10/AttendanceBook.jsx'
 import SignUp from './chapter_11/SignUp.jsx'
+import Calculator from './chapter_12/Calculator.jsx'
 
 const root = createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-    <SignUp />
+    <Calculator />
   </StrictMode>,
 );
 
